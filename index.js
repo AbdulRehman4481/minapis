@@ -19,7 +19,7 @@ app.use(express.json());
 // Initialize the PostgreSQL connection pool
 const pool = new Pool({
   connectionString:
-    process.env.DATABASE_URL || "postgresql://your-database-url",
+    "postgresql://postgres.fnxjdelrsqfyfedgksns:vERYdCzjcXKvmd9f@aws-0-ap-southeast-1.pooler.supabase.com:6543/postgres" ,
 });
 
 // Verify connection to the database on server start
